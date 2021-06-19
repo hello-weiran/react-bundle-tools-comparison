@@ -38,7 +38,7 @@
   "devDependencies": {
     "@dian/cli": "^1.2.10"
   },
-  "gitHead": "671e5f6dd7d3ad00611dd71c0fdf25dba3038672",
+  "gitHead": "5c7c13e4b05efbdd618eae9b2f020c3792ca2ab3",
   "vars": {},
   "size-limit": [
     {

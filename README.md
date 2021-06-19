@@ -10,9 +10,9 @@
 
 tool | bundle size(gzipped) | loading time | running time | total time | building time
 ----- | ----- | ----- | ----- | ----- | -----
-cra | 120.28 kB | 2.4s | 570ms | 3s | 23.72s
-parcel | 413.95 kB | 8.1s | 4.5s | 12.6s | 8.94s
-@dian/cli | 123.19 kB | 2.5s | 512ms | 3s | 15.54s
+cra | 120.28 kB | 2.4s | 570ms | 3s | 11.63s
+parcel | 413.95 kB | 8.1s | 4.5s | 12.6s | 19.32s
+@dian/cli | 123.19 kB | 2.5s | 512ms | 3s | 14.65s
 vite | ----- | ----- | ----- | ----- | -----
 
 ## 说明
@@ -25,7 +25,7 @@ vite | ----- | ----- | ----- | ----- | -----
     * CPU: (8) x64 Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz
     * Memory: 1019.69 MB / 32.00 GB
 * 测试版本：
-    * node: v14.17.1
+    * node: v16.3.0
     * react: v17.0.2
     * react-dom: v17.0.2
     * antd: v4.16.3
