@@ -21,9 +21,9 @@ vite | ----- | ----- | ----- | ----- | -----
 * 使用了 antd 组件 DatePicker & Button, 去掉了 moment 的 locale.
 * 加载/执行时间基于 [size-limit](https://github.com/ai/size-limit), a big thanks❤️!
 * 测试环境：
-    OS: macOS 11.4
-    CPU: (8) x64 Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz
-    Memory: 1019.69 MB / 32.00 GB
+    * OS: macOS 11.4
+    * CPU: (8) x64 Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz
+    * Memory: 1019.69 MB / 32.00 GB
 * 测试版本：
     * node: v14.17.1
     * react: v17.0.2
