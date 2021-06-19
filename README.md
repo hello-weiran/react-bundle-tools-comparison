@@ -11,7 +11,7 @@
 tool | bundle size(gzipped) | loading time | running time | total time | building time
 ----- | ----- | ----- | ----- | ----- | -----
 cra | 120.28 kB | 2.4s | 570ms | 3s | 11.63s
-parcel | 413.95 kB | 8.1s | 4.5s | 12.6s | 19.32s
+parcel | 138.17 kB | 2.7s | 698ms | 3.4s | 15.87s
 @dian/cli | 123.19 kB | 2.5s | 512ms | 3s | 14.65s
 vite | ----- | ----- | ----- | ----- | -----
 
