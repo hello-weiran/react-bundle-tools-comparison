@@ -1,0 +1,42 @@
+{
+  "name": "react-building-tools-compare",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.16.3",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "web-vitals": "^2.0.1"
+  },
+  "scripts": {
+    "start": "parcel serve ./public/index.html",
+    "build": "parcel build ./public/index.html --reporter @parcel/reporter-bundle-analyzer",
+    "test": "node scripts/test.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@parcel/reporter-bundle-analyzer": "^2.0.0-nightly.1694",
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "alias": {
+    "moment": "moment/moment.js"
+  },
+  "size-limit": [
+    {
+      "path": "dist/**/*.js",
+      "limit": "500 kB"
+    }
+  ]
+}

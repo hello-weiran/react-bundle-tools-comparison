@@ -1,0 +1,24 @@
+{
+  "name": "react-bundle-tools-comparison",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm run init:*",
+    "init:cra": "cp ./src/* ./apps/cra/src/",
+    "init:parcel": "cp ./src/* ./apps/parcel/src/",
+    "init:dian-cli": "cp ./src/* ./apps/dian-cli/src/",
+    "build": "npm run build:*",
+    "build:cra": "cd apps/cra/ && npm i && npm run build",
+    "build:parcel": "cd apps/parcel/ && npm i && npm run build",
+    "build:dian-cli": "cd apps/dian-cli/ && npm i && npm run build"
+  },
+  "keywords": ["create-react-app", "parcel", "react"],
+  "author": "weiran",
+  "license": "MIT",
+  "devDependencies": {
+    "@size-limit/preset-app": "^4.12.0",
+    "size-limit": "^4.12.0"
+  }
+}
