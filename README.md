@@ -8,7 +8,7 @@
 
 ## 测试结果
 
-tool | bundle size(gzipped) | loading time | running time | total time | building time
+tool | bundle size(gzipped) | loading time(slow 3G) | running time(Snapdragon 410) | total time | building time(no cached)
 ----- | ----- | ----- | ----- | ----- | -----
 cra | 120.28 kB | 2.4s | 570ms | 3s | 11.63s
 parcel | 138.17 kB | 2.7s | 698ms | 3.4s | 15.87s
