@@ -10,9 +10,10 @@
     "init:parcel": "cp ./src/* ./apps/parcel/src/",
     "init:dian-cli": "cp ./src/* ./apps/dian-cli/src/",
     "build": "npm run build:*",
-    "build:cra": "cd apps/cra/ && npm i && npm run build",
-    "build:parcel": "cd apps/parcel/ && npm i && npm run build",
-    "build:dian-cli": "cd apps/dian-cli/ && npm i && npm run build"
+    "build:cra": "cd apps/cra/ && npm run build",
+    "build:parcel": "cd apps/parcel/ && npm run build",
+    "build:next": "cd apps/next/ && npm run build",
+    "build:dian-cli": "cd apps/dian-cli/ && npm run build"
   },
   "keywords": ["create-react-app", "parcel", "react"],
   "author": "weiran",

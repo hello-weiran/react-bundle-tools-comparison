@@ -4,6 +4,7 @@
 * create-react-app
 * parcel
 * @dian/cli
+* next.js
 * vite(TODO)
 
 ## 测试结果
@@ -12,6 +13,7 @@ tool | bundle size(gzipped) | loading time(slow 3G) | running time(Snapdragon 41
 ----- | ----- | ----- | ----- | ----- | -----
 cra | 120.28 kB | 2.4s | 570ms | 3s | 11.63s
 parcel | 138.17 kB | 2.7s | 698ms | 3.4s | 15.87s
+next.js | 264.21 kB | 5.2 s | 3 s | 8.2 s | 20.05s
 @dian/cli | 123.19 kB | 2.5s | 512ms | 3s | 14.65s
 vite | ----- | ----- | ----- | ----- | -----
 
@@ -31,4 +33,5 @@ vite | ----- | ----- | ----- | ----- | -----
     * antd: v4.16.3
     * create-react-app: v4.0.3
     * parcel: 2.0.0-beta.3.1
+    * next.js: v11.0.0
     * @dian/cli: v1.2.10
