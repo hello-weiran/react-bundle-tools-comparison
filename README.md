@@ -1,10 +1,10 @@
 # react bundle tooling comparison
 
 基于 react, react-dom, antd，测试打包工具的效果:
-* create-react-app
+* create-react-app (基于webpack)
 * parcel
-* @dian/cli
-* next.js
+* next.js (基于webpack)
+* @dian/cli (基于webpack)
 * vite(TODO)
 
 ## 测试结果
@@ -21,7 +21,7 @@ vite | ----- | ----- | ----- | ----- | -----
 
 
 * 使用了 antd 组件 DatePicker & Button, 去掉了 moment 的 locale.
-* 加载/执行时间基于 [size-limit](https://github.com/ai/size-limit), a big thanks❤️!
+* 加载/执行时间基于 [size-limit](https://github.com/ai/size-limit)(a big thanks❤️!)
 * 测试环境：
     * OS: macOS 11.4
     * CPU: (8) x64 Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz
